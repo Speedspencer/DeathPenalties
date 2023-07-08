@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="DeathPenalties:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/DeathPenalties_jar</output-path>
+    <root id="archive" name="DeathPenalties.jar">
+      <element id="module-output" name="DeathPenalties" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/plugin.yml" />
+    </root>
+  </artifact>
+</component>

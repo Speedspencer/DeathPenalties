@@ -1,0 +1,11 @@
+
+# Debug mode
+debug: false
+
+# Prefix for all messages
+prefix: "&b[DeathPenalties]"
+
+# Experience Levels Drop Percentage On Death
+dropPercentage: 50
+
+

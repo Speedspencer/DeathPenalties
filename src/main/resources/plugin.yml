@@ -1,0 +1,18 @@
+name: DeathPenalties
+version: '${project.version}'
+main: com.yusaki.deathpenalties.DeathPenalties
+api-version: '1.20'
+commands:
+    deathpenalties:
+        description: DeathPenalties command
+        usage: /deathpenalties
+        aliases: [dp]
+        permission: deathpenalties
+        permission-message: You do not have permission to use this command.
+        subcommands:
+            reload:
+                description: Reloads the death penalties config
+                usage: /deathpenalties reload
+                aliases: []
+                permission: deathpenalties.reload
+                permission-message: You do not have permission to use this command.
